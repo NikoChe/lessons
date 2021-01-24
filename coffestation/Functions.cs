@@ -3,25 +3,24 @@ namespace coffestation
 {
     class Methods
     {
-        public static int GetSummOrder(int x, int y) => x * y;
+        public static int GetSummChoice(int x, int y) => x * y;
+        
         public static int GetOrderCoffe()
         {
-        int orderCoffe;
+        int orderCoffe = 0;
         iniatiliseChoice:
-            System.Console.WriteLine("Какой кофе ты для себя выбрал? Введи цифрой от 1 до 5.");
-            //string inputChoiceCoffe = Console.ReadLine();
-            //int choiceCoffe = Convert.ToInt32(inputChoiceCoffe);
+            System.Console.WriteLine("Дл выбора кофе нажми цифру от 1 до 5.");
             while (true)
             {
                 if (!int.TryParse(Console.ReadLine(), out var choiceCoffe))
                 {
                     Console.WriteLine("Ну куда ты буквы жамкаешь? Кофе выбирается цифрами от 1 до 5.");
                 }
-                // else if (choiceCoffe == 0)
-                // {
-                //     System.Console.WriteLine("Что бы сформировать заказ, нужно указть число больше чем 0 и меньше чем 6. Например 5.");
-                //     //goto inputQuantityDigit;
-                // }
+                else if (choiceCoffe == 0)
+                {
+                    System.Console.WriteLine("Что бы сформировать заказ, нужно указть число больше чем 0 и меньше чем 6. Например 5.");
+                    goto iniatiliseChoice;
+                }
                 else
                 {
                     switch (choiceCoffe)
@@ -50,12 +49,8 @@ namespace coffestation
                             System.Console.WriteLine("Глупенький, не надо жмакать все кнопки подряд. Что бы выбрать напиток нужно нажимать кнопки от 1 до 5");
                             goto iniatiliseChoice;
                     }
-                    //return orderCoffe;
                 }
             }
-
-            //return orderCoffe;
-
         }
         public static int GetQuantity()
         {
@@ -77,23 +72,7 @@ namespace coffestation
                     return quantity;
                 }
             }
-            // string inputQuantity = Console.ReadLine();
-            // int quantity = Convert.ToInt32(inputQuantity);
-            // if (quantity == 0)
-            // {
-            //     System.Console.WriteLine("что бы сформировать заказ, нужно указть число больше чем 0");
-            //     goto inputQuantityDigit;
-            // }
-            // else
-            // {
-            // return quantity;
-            // }
         }
         public static int GetPresummOrder(int a, int b) => a + b;
-        // {
-        //     // int preSummOrder;
-        //     // preSummOrder = a+b;
-        //     // return preSummOrder;
-        // }
     }
 }
