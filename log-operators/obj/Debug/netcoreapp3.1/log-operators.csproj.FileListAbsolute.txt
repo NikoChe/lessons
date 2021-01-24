@@ -1,0 +1,13 @@
+/home/anydeal/projects/lessons/log-operators/bin/Debug/netcoreapp3.1/log-operators
+/home/anydeal/projects/lessons/log-operators/bin/Debug/netcoreapp3.1/log-operators.deps.json
+/home/anydeal/projects/lessons/log-operators/bin/Debug/netcoreapp3.1/log-operators.runtimeconfig.json
+/home/anydeal/projects/lessons/log-operators/bin/Debug/netcoreapp3.1/log-operators.runtimeconfig.dev.json
+/home/anydeal/projects/lessons/log-operators/bin/Debug/netcoreapp3.1/log-operators.dll
+/home/anydeal/projects/lessons/log-operators/bin/Debug/netcoreapp3.1/log-operators.pdb
+/home/anydeal/projects/lessons/log-operators/obj/Debug/netcoreapp3.1/log-operators.csprojAssemblyReference.cache
+/home/anydeal/projects/lessons/log-operators/obj/Debug/netcoreapp3.1/log-operators.AssemblyInfoInputs.cache
+/home/anydeal/projects/lessons/log-operators/obj/Debug/netcoreapp3.1/log-operators.AssemblyInfo.cs
+/home/anydeal/projects/lessons/log-operators/obj/Debug/netcoreapp3.1/log-operators.csproj.CoreCompileInputs.cache
+/home/anydeal/projects/lessons/log-operators/obj/Debug/netcoreapp3.1/log-operators.dll
+/home/anydeal/projects/lessons/log-operators/obj/Debug/netcoreapp3.1/log-operators.pdb
+/home/anydeal/projects/lessons/log-operators/obj/Debug/netcoreapp3.1/log-operators.genruntimeconfig.cache

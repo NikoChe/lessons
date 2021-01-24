@@ -1,0 +1,13 @@
+/home/anydeal/projects/lessons/coffestation/obj/Debug/netcoreapp3.1/coffestation.csprojAssemblyReference.cache
+/home/anydeal/projects/lessons/coffestation/obj/Debug/netcoreapp3.1/coffestation.AssemblyInfoInputs.cache
+/home/anydeal/projects/lessons/coffestation/obj/Debug/netcoreapp3.1/coffestation.AssemblyInfo.cs
+/home/anydeal/projects/lessons/coffestation/obj/Debug/netcoreapp3.1/coffestation.csproj.CoreCompileInputs.cache
+/home/anydeal/projects/lessons/coffestation/bin/Debug/netcoreapp3.1/coffestation
+/home/anydeal/projects/lessons/coffestation/bin/Debug/netcoreapp3.1/coffestation.deps.json
+/home/anydeal/projects/lessons/coffestation/bin/Debug/netcoreapp3.1/coffestation.runtimeconfig.json
+/home/anydeal/projects/lessons/coffestation/bin/Debug/netcoreapp3.1/coffestation.runtimeconfig.dev.json
+/home/anydeal/projects/lessons/coffestation/bin/Debug/netcoreapp3.1/coffestation.dll
+/home/anydeal/projects/lessons/coffestation/bin/Debug/netcoreapp3.1/coffestation.pdb
+/home/anydeal/projects/lessons/coffestation/obj/Debug/netcoreapp3.1/coffestation.dll
+/home/anydeal/projects/lessons/coffestation/obj/Debug/netcoreapp3.1/coffestation.pdb
+/home/anydeal/projects/lessons/coffestation/obj/Debug/netcoreapp3.1/coffestation.genruntimeconfig.cache
