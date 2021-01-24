@@ -3,7 +3,7 @@ namespace coffestation
 {
     class Methods
     {
-        public static int GetSummChoice(int x, int y) => x * y;
+        public static int GetSummOrder(int x, int y) => x * y;
         public static int GetOrderCoffe()
         {
         int orderCoffe;

@@ -42,7 +42,7 @@ namespace coffestation
             System.Console.WriteLine("Приятно познакомиться {0}", userName);
             int choice = Methods.GetOrderCoffe();
             int quantity = Methods.GetQuantity();
-            preSumm = Methods.GetSummChoice(choice, quantity);
+            preSumm = Methods.GetSummOrder(choice, quantity);
             System.Console.WriteLine("{0}, Вы  добавили к заказу {1} кофе на сумму {2}", userName, quantity, preSumm);
         // initialiseAddOrder:
         //     System.Console.WriteLine("Хотите добавить еще кофе к заказу? 1. - ДА. 2. - НЕТ");
@@ -50,7 +50,7 @@ namespace coffestation
             // int addToOrder = Convert.ToInt32(inputAddToOrder);
             // if (addToOrder == 1)
             // {
-            //     summ = preSumm + Methods.GetSummChoice(Methods.GetOrderCoffe(), Methods.GetQuantity());
+            //     summ = preSumm + Methods.GetSummOrder(Methods.GetOrderCoffe(), Methods.GetQuantity());
             //     System.Console.WriteLine("{0}, Вы  добавили к заказу {1} кофе на сумму {2}", userName, quantity, preSumm);
             //     System.Console.WriteLine("Общая сумма заказа {0} руб.", summ);
             //     goto initialiseAddOrder;
@@ -65,7 +65,7 @@ namespace coffestation
             //     }
             //     else if (addToOrder == 1)
             //     {
-            //         summ = preSumm + Methods.GetSummChoice(Methods.GetOrderCoffe(), Methods.GetQuantity());
+            //         summ = preSumm + Methods.GetSummOrder(Methods.GetOrderCoffe(), Methods.GetQuantity());
             //         System.Console.WriteLine("{0}, Вы  добавили к заказу {1} кофе на сумму {2}", userName, quantity, preSumm);
             //         System.Console.WriteLine("Общая сумма заказа {0} руб.", summ);
             //         goto initialiseAddOrder;
